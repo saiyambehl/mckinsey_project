@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.mckinsey</OriginalElement>
+  <nodes>
+    <node x="536.7916666666666" y="1089.0">com.mckinsey.MainClass</node>
+    <node x="115.12319624819634" y="334.0">com.mckinsey.dto.UserType</node>
+    <node x="10.5" y="501.0">com.mckinsey.dto.User</node>
+    <node x="304.5" y="524.0">com.mckinsey.service.PercentageStrategy</node>
+    <node x="397.875" y="314.0">com.mckinsey.service.IPricingStrategy</node>
+    <node x="531.3106962481963" y="0.0">com.mckinsey.dto.ProductType</node>
+    <node x="676.5205627705627" y="860.0">com.mckinsey.service.impl.GenericDiscount</node>
+    <node x="625.160082972583" y="566.0">com.mckinsey.service.IDiscountType</node>
+    <node x="468.31069624819634" y="125.0">com.mckinsey.dto.Product</node>
+    <node x="417.5205627705627" y="764.0">com.mckinsey.service.ShoppingCart</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.mckinsey.service.ShoppingCart" target="com.mckinsey.dto.Product">
+      <point x="26.555555555555543" y="-122.5" />
+      <point x="563.5761183261183" y="714.0" />
+      <point x="601.9583333333334" y="714.0" />
+      <point x="601.9583333333334" y="294.0" />
+      <point x="591.8106962481963" y="294.0" />
+      <point x="0.0" y="69.5" />
+    </edge>
+    <edge source="com.mckinsey.service.PercentageStrategy" target="com.mckinsey.dto.ProductType">
+      <point x="-82.875" y="-68.5" />
+      <point x="332.125" y="481.0" />
+      <point x="345.29834054834043" y="481.0" />
+      <point x="345.29834054834043" y="95.0" />
+      <point x="546.4356962481963" y="95.0" />
+      <point x="-45.375" y="37.5" />
+    </edge>
+    <edge source="com.mckinsey.MainClass" target="com.mckinsey.service.ShoppingCart">
+      <point x="0.0" y="-26.5" />
+      <point x="609.2916666666666" y="1029.0" />
+      <point x="596.7705627705627" y="1029.0" />
+      <point x="59.75" y="122.5" />
+    </edge>
+    <edge source="com.mckinsey.MainClass" target="com.mckinsey.service.impl.GenericDiscount">
+      <point x="16.111111111111086" y="-26.5" />
+      <point x="625.4027777777777" y="1039.0" />
+      <point x="757.5205627705627" y="1039.0" />
+      <point x="0.0" y="26.5" />
+    </edge>
+    <edge source="com.mckinsey.service.ShoppingCart" target="com.mckinsey.service.PercentageStrategy">
+      <point x="-26.555555555555543" y="-122.5" />
+      <point x="510.4650072150072" y="714.0" />
+      <point x="415.0" y="714.0" />
+      <point x="0.0" y="68.5" />
+    </edge>
+    <edge source="com.mckinsey.service.ShoppingCart" target="com.mckinsey.dto.UserType">
+      <point x="-53.111111111111086" y="-122.5" />
+      <point x="483.90945165945163" y="724.0" />
+      <point x="294.0" y="724.0" />
+      <point x="294.0" y="471.0" />
+      <point x="203.49819624819634" y="471.0" />
+      <point x="37.875" y="48.5" />
+    </edge>
+    <edge source="com.mckinsey.dto.User" target="com.mckinsey.dto.UserType">
+      <point x="68.25" y="-91.5" />
+      <point x="215.25" y="481.0" />
+      <point x="178.24819624819634" y="481.0" />
+      <point x="12.625" y="48.5" />
+    </edge>
+    <edge source="com.mckinsey.MainClass" target="com.mckinsey.dto.Product">
+      <point x="32.22222222222217" y="-26.5" />
+      <point x="641.5138888888888" y="1049.0" />
+      <point x="849.0205627705627" y="1049.0" />
+      <point x="849.0205627705627" y="294.0" />
+      <point x="662.3821248196249" y="294.0" />
+      <point x="70.57142857142856" y="69.5" />
+    </edge>
+    <edge source="com.mckinsey.service.ShoppingCart" target="com.mckinsey.service.IPricingStrategy">
+      <point x="0.0" y="-122.5" />
+      <point x="537.0205627705627" y="704.0" />
+      <point x="564.1922799422799" y="704.0" />
+      <point x="564.1922799422799" y="481.0" />
+      <point x="549.5416666666666" y="481.0" />
+      <point x="60.66666666666663" y="68.5" />
+    </edge>
+    <edge source="com.mckinsey.MainClass" target="com.mckinsey.dto.User">
+      <point x="-32.222222222222285" y="-26.5" />
+      <point x="577.0694444444443" y="1049.0" />
+      <point x="84.25" y="1049.0" />
+      <point x="84.25" y="744.0" />
+      <point x="112.875" y="744.0" />
+      <point x="-34.125" y="91.5" />
+    </edge>
+    <edge source="com.mckinsey.service.ShoppingCart" target="com.mckinsey.dto.User">
+      <point x="-79.66666666666663" y="-122.5" />
+      <point x="457.3538961038961" y="734.0" />
+      <point x="249.375" y="734.0" />
+      <point x="102.375" y="91.5" />
+    </edge>
+    <edge source="com.mckinsey.MainClass" target="com.mckinsey.dto.ProductType">
+      <point x="64.44444444444446" y="-26.5" />
+      <point x="673.7361111111111" y="1069.0" />
+      <point x="879.5919913419913" y="1069.0" />
+      <point x="879.5919913419913" y="95.0" />
+      <point x="637.1856962481963" y="95.0" />
+      <point x="45.375" y="37.5" />
+    </edge>
+    <edge source="com.mckinsey.service.IPricingStrategy" target="com.mckinsey.dto.Product">
+      <point x="-45.5" y="-68.5" />
+      <point x="443.375" y="294.0" />
+      <point x="521.2392676767678" y="294.0" />
+      <point x="-70.57142857142856" y="69.5" />
+    </edge>
+    <edge source="com.mckinsey.service.PercentageStrategy" target="com.mckinsey.service.IPricingStrategy">
+      <point x="27.625" y="-68.5" />
+      <point x="442.625" y="481.0" />
+      <point x="428.20833333333337" y="481.0" />
+      <point x="-60.666666666666686" y="68.5" />
+    </edge>
+    <edge source="com.mckinsey.MainClass" target="com.mckinsey.dto.UserType">
+      <point x="-64.44444444444446" y="-26.5" />
+      <point x="544.8472222222222" y="1069.0" />
+      <point x="0.0" y="1069.0" />
+      <point x="0.0" y="471.0" />
+      <point x="127.74819624819634" y="471.0" />
+      <point x="-37.875" y="48.5" />
+    </edge>
+    <edge source="com.mckinsey.service.PercentageStrategy" target="com.mckinsey.dto.Product">
+      <point x="-27.625" y="-68.5" />
+      <point x="387.375" y="284.0" />
+      <point x="485.95355339105345" y="284.0" />
+      <point x="-105.85714285714289" y="69.5" />
+    </edge>
+    <edge source="com.mckinsey.service.impl.GenericDiscount" target="com.mckinsey.service.IDiscountType">
+      <point x="0.0" y="-26.5" />
+      <point x="757.5205627705627" y="744.0" />
+      <point x="760.160082972583" y="744.0" />
+      <point x="54.0" y="26.5" />
+    </edge>
+    <edge source="com.mckinsey.dto.Product" target="com.mckinsey.dto.ProductType">
+      <point x="-61.75" y="-69.5" />
+      <point x="530.0606962481963" y="105.0" />
+      <point x="576.6856962481963" y="105.0" />
+      <point x="-15.125" y="37.5" />
+    </edge>
+    <edge source="com.mckinsey.service.ShoppingCart" target="com.mckinsey.service.IDiscountType">
+      <point x="106.22222222222217" y="-122.5" />
+      <point x="643.2427849927849" y="744.0" />
+      <point x="706.160082972583" y="744.0" />
+      <point x="0.0" y="26.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="418.5" y="148.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
