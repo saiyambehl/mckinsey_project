@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="47959de8-5cc7-4b3d-a40e-974d31d8e7b1" name="Default Changelist" comment="" />
+    <list default="true" id="47959de8-5cc7-4b3d-a40e-974d31d8e7b1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Package mckinsey.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mckinsey.uml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mckinsey/MainClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mckinsey/MainClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mckinsey/service/IDiscountType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mckinsey/service/ShoppingCart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mckinsey/service/ShoppingCart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mckinsey/service/impl/GenericDiscount.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mckinsey/MainClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mckinsey/MainClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mckinsey/service/IDiscountType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mckinsey/service/ShoppingCart.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mckinsey/service/ShoppingCart.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mckinsey/service/impl/GenericDiscount.class" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,6 +30,7 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="MavenImportPreferences">
@@ -27,6 +41,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1WkACtAac5dbdTnrLWkfA6wpqKr" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -34,6 +49,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -84,7 +100,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1579683094068</updated>
-      <workItem from="1579683095437" duration="5918000" />
+      <workItem from="1579683095437" duration="11084000" />
     </task>
     <servers />
   </component>
@@ -108,26 +124,30 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="438" y="201" width="404" height="287" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1280.680@0.0.1280.680" timestamp="1579683817844" />
+    <state x="371" y="89" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1579690640703">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="371" y="89" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680@0.0.1280.680" timestamp="1579690640703" />
     <state x="421" y="68" key="FileChooserDialogImpl" timestamp="1579689442343">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="421" y="68" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1579689442343" />
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1579689153289">
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1579758538375">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1579689153289" />
-    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1579689153289">
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1579758538375" />
+    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1579758538375">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1579689153289" />
-    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1579689153289">
+    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1579758538375" />
+    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1579758538375">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1579689153289" />
-    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1579689153289">
+    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1579758538375" />
+    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1579758538375">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1579689153289" />
+    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1579758538375" />
     <state x="142" y="0" key="SettingsEditor" timestamp="1579689273245">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

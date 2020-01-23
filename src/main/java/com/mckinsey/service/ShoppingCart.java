@@ -12,12 +12,10 @@ import java.util.Map;
 public class ShoppingCart {
     private Map<Product, Integer> products;
     private User user;
-    private IDiscountType discountType;
 
-    public ShoppingCart(User user, IDiscountType discountType) {
+    public ShoppingCart(User user) {
         this.products = new HashMap<Product, Integer>();
         this.user = user;
-        this.discountType = discountType;
     }
     public void addProduct(Product product, int quantity){
         if(products.containsKey(product)) {
@@ -43,7 +41,12 @@ public class ShoppingCart {
         }else{
             pricingStrategy = new PercentageStrategy(product,0);
         }
-        return pricingStrategy.getPrice(quantity);
+        double totalPrice = pricingStrategy.getPrice(quantity);
+        double discount = 0.0d;
+        if(totalPrice > 100){
+            discount = (totalPrice /100) * 5;
+        }
+        return totalPrice;
 
     }
     public double getTotalPrice(){
